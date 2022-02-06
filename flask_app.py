@@ -67,9 +67,9 @@ def predict_note_authentication():
     prediction = classifier.predict([[variance, skewness, curtosis, entropy]])
 
     if prediction[0] == 0:
-        return "The value of the note is 0. Thus, the model predicts that the bank not is fake."
+        return "The value of the note is 0. Thus, the model predicts that the bank note is fake."
     else:
-        return "The value of the note is 1. Thus, the model predicts that the bank not is genuine."
+        return "The value of the note is 1. Thus, the model predicts that the bank note is genuine."
 
 
 # we would like to define a function that allows batch predictions to be made from test csv files
