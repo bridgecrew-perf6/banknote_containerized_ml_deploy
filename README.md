@@ -15,4 +15,4 @@
 
 The link to the demonstration can be found here:
 
-![Demo Video](https://www.youtube.com/watch?v=2ozDPSCJGxo)
+[Demo Video](https://www.youtube.com/watch?v=2ozDPSCJGxo)
